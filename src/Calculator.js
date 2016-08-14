@@ -13,7 +13,7 @@ const inputButtons = [
     [4, 5, 6, '*'],
     [7, 8, 9, '-'],
     [0, '.', '=', '+']
-]
+];
 
 class Calculator extends Component {
     render() {
@@ -43,11 +43,12 @@ class Calculator extends Component {
                 let input = row[i];
                 //puts each value in each InputButton
                 inputRow.push(
+                    //props value
                     <InputButton value={input} />
                 );
             }
             //puts all inputRows in views
-            views.push(<View syle={Style.inputRow}> {inputRow} </View>);
+            views.push(<View style={Style.inputRow}>{inputRow}</View>);
         }
         
         return views;

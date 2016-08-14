@@ -11,7 +11,7 @@ var Style = StyleSheet.create({
     },
 
     inputContainer: {
-        flex: 2,
+        flex: 8,
         backgroundColor: '#3E606F'
     },
 
@@ -20,7 +20,7 @@ var Style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         borderWidth: 0.5,
-        borderColor: '#91AA9D'
+        borderColor: 'white'
     },
 
     inputButtonText: {
@@ -33,6 +33,6 @@ var Style = StyleSheet.create({
         flex: 1,
         flexDirection: 'row'
     }
-})
+});
 
 export default Style;
